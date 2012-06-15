@@ -1,0 +1,11 @@
+h1. copyedit
+
+Very beta.
+
+Change the @urlPrefix@ variable in @copyedit.js@ to reflect your local server path.
+
+Add a bookmarklet thus:
+
+@javascript:var%20script%20=%20document.createElement('script');script.setAttribute('src',%20'http://copyedit.dev/copyedit.js?1234');document.getElementsByTagName('body')%5B0%5D.appendChild(script);@
+
+Future releases will improve this process!
